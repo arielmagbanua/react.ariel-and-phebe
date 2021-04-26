@@ -1,8 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
-
-const AppNavBar: React.FC = () => {
+const AppNavbar: React.FC = () => {
   return (
     <Navbar bg="light" variant="light">
       <Navbar.Brand href="/">
@@ -19,4 +18,4 @@ const AppNavBar: React.FC = () => {
   );
 }
 
-export default AppNavBar;
+export default AppNavbar;
