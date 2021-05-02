@@ -5,7 +5,7 @@ import styles from './AppNavbar.module.scss'
 
 const AppNavbar: React.FC = () => {
   return (
-    <Navbar className="shadow" bg="light" variant="light">
+    <Navbar className="shadow-sm" bg="light" variant="light">
       <Navbar.Brand className={styles['all-caps']} href="/">
         <h1>Ariel <em>&amp;</em> Phebe</h1>
       </Navbar.Brand>
